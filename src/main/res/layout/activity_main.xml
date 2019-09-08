@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+
+
+
+    <Button
+        android:id="@+id/button"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open movie 1" />
+    <Button
+        android:background="@android:color/holo_purple"
+        android:layout_below="@+id/button"
+        android:id="@+id/button2"
+        android:text="open movie 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_below="@+id/button2"
+        android:id="@+id/button3"
+
+        android:background="@android:color/holo_blue_light"
+        android:text="open Tv Series 1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@android:color/holo_red_light"
+        android:layout_below="@+id/button3"
+        android:id="@+id/button4"
+        android:text="open Tv Series 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_below="@+id/button4"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textSize="17dp"
+        android:text="Created by EBB" />
+
+
+</RelativeLayout>
